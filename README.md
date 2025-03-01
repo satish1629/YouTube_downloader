@@ -32,7 +32,7 @@ The application will be available at `http://localhost:5000`
 ## Dependencies
 
 - Flask
-- pytube
+- yt-dlp
 - Bootstrap 5
 
 ## Note
