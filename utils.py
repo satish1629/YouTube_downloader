@@ -25,8 +25,8 @@ def get_video_info(url):
     try:
         ydl_opts = {
             'quiet': True,
-            'no_warnings': True,
-            'extract_flat': True
+            'no_warnings': True
+            # 'extract_flat': True   <-- REMOVE this line
         }
 
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
